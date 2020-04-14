@@ -54,7 +54,7 @@
  '(link ((t (:underline (:color foreground-color :style line) :foreground "#287BDE"))))
  '(link-visited ((t (:underline (:color foreground-color :style line) :foreground "#287BDE" :inherit (link)))))
  ;; search
- '(isearch ((t (:background "#214283" :box (:line-width -1 :color "#bbbbbb")))))
+ '(isearch ((t (:background "#214283" :box (:line-width -1 :color "#315293")))))
  ;; other search matches
  '(lazy-highlight ((t (:background "#32593d" :box (:line-width -1 :color "#3c704b")))))
  ;; tooltip colors doesn't work on OSX
@@ -65,14 +65,14 @@
  ;; IDEA supports something like hl-mode
  '(hl-line ((t (:background "#323232"))))
  ;; ecb customizations
- '(ecb-default-highlight-face ((t (:background "DarkSlateGray" :box (:line-width 1 :style released-button)))))
- '(ecb-default-general-face ((t (:foreground "white"))))
+ '(ecb-default-highlight-face ((t (:background "#32593d" :box (:line-width -1 :color "#3c704b")))))
+ '(ecb-default-general-face ((t (:foreground "grey"))))
  ;; coding customizations
  '(font-lock-comment-face ((t (:foreground "#808080"))))
  '(font-lock-comment-delimiter-face ((t (:foreground "#808080"))))
  '(font-lock-doc-face ((t (:foreground "#629755" :italic t))))
  '(font-lock-keyword-face ((t (:foreground "#CC7832"))))
- '(font-lock-preprocessor-face ((t (:foreground "green"))))
+ '(font-lock-preprocessor-face ((t (:foreground "#BBB529"))))
  '(font-lock-string-face ((t (:foreground "#6A8759"))))
  '(font-latex-string-face ((t (:foreground "#6A8759"))))
  '(font-latex-math-face ((t (:foreground "aquamarine1"))))
@@ -87,7 +87,7 @@
  '(font-lock-warning-face ((t (:foreground "red"))))
  '(font-lock-operator-face ((t (:foreground "#CC7832"))))
  '(font-lock-end-statement ((t (:foreground "white"))))
- ;; Java-like annotations 
+ ;; Java-like annotations
  '(c-annotation-face ((t (:foreground "#BBB529"))))
  ;; log4j customizations
  '(log4j-font-lock-warn-face ((t (:foreground "Orange"))))
@@ -100,8 +100,8 @@
  ;; python customizations
  '(py-builtins-face ((t (:foreground "#ffffff"))))
  ;; helm customizations
- '(helm-selection ((t (:background "Cyan" :foreground "black"))))
- '(helm-ff-directory ((t (:foreground "#ffffff" :background "MidnightBlue"))))
+ '(helm-selection ((t (:background "#BBB529" :foreground "grey0"))))
+ '(helm-ff-directory ((t (:foreground "#FFC66D" :bold t))))
  ;; dired customizations
  '(diredp-file-name ((t (:foreground "cyan1"))))
  '(diredp-file-suffix ((t (:foreground "cyan1"))))
@@ -122,7 +122,7 @@
  ;; nXML customizations
  ; '<' and '>' characters
  '(nxml-tag-delimiter ((t (:foreground "#E8BF6A"))))
- ; '=' and '"' characters 
+ ; '=' and '"' characters
  '(nxml-attribute-value-delimiter ((t (:foreground "#E8BF6A"))))
  ; tag name
  '(nxml-element-local-name ((t (:foreground "#CC7832"))))
